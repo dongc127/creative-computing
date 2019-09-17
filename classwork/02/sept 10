@@ -1,0 +1,18 @@
+sept 10 
+-images
+	- JPG
+		- "save for web"
+		- 1mb (500 kb)
+		-if something renders at 200px, exports at 400 px 
+		- generally export as jpg
+		- dpi shouldent be greater than 72 
+	- PNG
+		- produce a crisper image (rec. for illustration) 
+		- supportas transparency (alpha channel)
+		-png'sare gnerally larger infile size than jpg
+	- SVG 
+		-  tiny file size
+		- scale infinitely
+	-GIF
+		- embedded animaton 
+		
