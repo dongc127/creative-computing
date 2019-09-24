@@ -1,0 +1,21 @@
+h1{ 
+	color:rgb(230, 242, 255) ;
+	margin: 0; 
+	font-family: "Baskerville";
+}
+
+.header-title {
+	font-size: 200px;
+}
+
+h3{ color: rgb(230, 242, 255) ;}
+
+h6{ color: rgb(230, 242, 255) ;}
+
+body{ 
+	background-color: rgb(0, 24, 51);
+}
+
+
+img{ 
+	width:800px; }

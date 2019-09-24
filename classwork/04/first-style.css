@@ -1,0 +1,34 @@
+h1 {
+	color: purple;
+	margin: 0;
+}
+h2 {
+	margin: 0;
+	text-align: center;
+	border: dashed 5px black;
+
+}
+p{
+	font-family: "Georgia";
+	background-color:lightblue;
+}
+body { 
+	background-color: #eda;
+	color: orange;
+ }
+
+ .address {
+ 	color: chocolate;
+ }
+
+ .header-title {
+ 	font-size: 100px;
+ }
+
+ img {
+ 	width: 150px;
+ 	position: relative;
+ 	left: 50%;
+ 	width: 150px;
+ 	margin-left: -50px;
+ }
