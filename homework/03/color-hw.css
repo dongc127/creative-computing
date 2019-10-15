@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<style>
+	
+
+body{
+	margin: 0;
+	 background-color:chartreuse;
+
+}
+div{
+	width: 100vw;
+	height: 10vh;
+
+}
+.purple1 { 
+	
+	animation: slide1 4s infinite ease-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.purple2 {
+	background-color: blueviolet;
+}
+
+</style>
+</head>
+<body>
+
+	
+	<div class="purple1"></div>
+	<div class="purple2"></div>
+	<div class="pink"></div>
+	<div class="dark-pink"></div>
+
+</body>
+
+
+</html>
