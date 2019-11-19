@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+html, body {
+margin: 0;
+height: 100%;
+}
+body { display: flex; }
+div { flex: 1; }
+
+</style>
+
+	<title></title>
+
+</head>
+<body>
+
+
+<script>
+
+var counter = 0
+while (counter < 10) {
+	counter = counter +1;
+	// stops it from going infintly
+	var d = document.createElement("div");
+	// create a random color
+	var rand = Math.random ()*360;
+	var color = "hsl(" + rand +", 50%, 70%)";
+	d.style.backgroundColor= color;
+	document.body.appendChild(d);
+	// places the code on to the page (essential)
+}
+
+</script>
+
+
+
+</body>
+</html>
