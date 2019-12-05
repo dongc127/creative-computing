@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style>
+html,body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+
+</style>
+</head>
+<body>
+
+<img id="channel" src="">
+
+<script>
+	
+var images= ["gifs/giphy1.gif","gifs/giphy2.gif","gifs/giphy3.gif","gifs/giphy4.gif","gifs/giphy5.gif"];
+
+// need to be able to set an <img> src from javascript
+
+// document.getElementById("channel").src= "gifs/cats1.jpg";
+// an alternate way of making the var image
+
+// can you set the image, but from the array
+
+var channel = 0;
+
+
+
+// keyboard handlers
+
+document.onkeydown = function(event) { 
+	console.log("on key down",event.key);
+	console.log(channel);
+
+	// when event.key is equal to ArrowUp it will grab the image from gifs/ setting the src
+
+	// depending on which key is pressed, change the channel variable
+	if (event.key == "ArrowUp") {
+		console.log("Up");
+		
+		channel=channel+1;
+		if (channel==5){
+			channel=0;
+		}
+
+	}
+	if (event.key == "ArrowDown") {
+		console.log("Down");
+		channel=channel-1;
+		if (channel==-1){
+			channel=4;
+		}
+
+	}
+	// update the image on the page
+	document.getElementById("channel").src= images[channel];
+}
+
+
+
+</script>
+
+</body>
+</html>
